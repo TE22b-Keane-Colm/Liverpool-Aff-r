@@ -1,0 +1,37 @@
+body{
+    margin: 0px;
+}
+h1{
+    text-align: center;
+    color: white;
+}
+header{
+    background-color: rgba(193, 13, 13, 1);
+    display: flex;
+    text-align: center;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 15px;
+}
+#headerImg{
+    height: 100px;
+}
+main{
+    display: flex;
+    flex-direction: row;
+}
+aside{
+    background-color: rgba(148, 0, 0, 1);
+    width: 8vw;
+}
+.produktlådor{
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr;
+}
+#produkt{
+    background-color: blanchedalmond;
+    height: 100px;
+    width: 100px;
+    margin: 10px;
+}
