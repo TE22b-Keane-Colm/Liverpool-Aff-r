@@ -26,12 +26,309 @@ aside{
     width: 8vw;
 }
 .produktlådor{
+    width: 160vw;
     display: grid;
     grid-template-columns: 2fr 2fr 2fr;
 }
+
 #produkt{
-    background-color: blanchedalmond;
-    height: 100px;
-    width: 100px;
+    background-color: thistle;
+    height: 300px;
+    width: 350px;
     margin: 10px;
+}
+#produkt1 {
+    height: 300px;
+    width: 350px;
+    margin: 10px;
+    background-repeat:no-repeat;
+    background-size: 350px 300px;
+    background-image: url(img/nedladdning..webp);
+}
+#produkt2 {
+    background-position: center;
+    height: 300px;
+    width: 350px;
+    margin: 10px;
+    background-repeat:no-repeat;
+    background-size: 250px 265px;
+    background-image: url(img/liverpool2.webp);  
+}
+#produkt3 {
+    height: 300px;
+    width: 350px;
+    margin: 10px;
+    background-repeat:no-repeat;
+    background-size: 350px 300px;
+    background-image: url(img/liverpool3.webp);  
+}
+#produkt4 {
+    height: 300px;
+    width: 350px;
+    margin: 10px;
+    background-repeat:no-repeat;
+    background-size: 350px 300px;
+    background-image: url(img/nike-liverpool-20-21-away-jersey-green4.webp);  
+}
+#produkt5 {
+    height: 300px;
+    width: 350px;
+    margin: 10px;
+    background-repeat:no-repeat;
+    background-size: 350px 300px;
+    background-image: url(img/liverpool5.webp);  
+}
+#produkt6 {
+    height: 300px;
+    width: 350px;
+    margin: 10px;
+    background-repeat:no-repeat;
+    background-size: 350px 300px;
+    background-image: url(img/liverpool6.webp);  
+}
+p{
+    color: white;
+    text-align: center;
+    margin-top: 200px;
+    background-color: black;
+    margin-right: 50px; margin-left: 50px;
+}
+footer{
+    background-color: rgba(193, 13, 13, 1);
+    text-align: center;
+    padding: 15px;
+}
+h2{
+    color: white;
+}
+.produktlådor button{
+    align-items: center;
+    justify-content: center
+    text-align: center;
+    margin-left: 150px;
+}
+
+@media screen and (min-width: 641px) and (max-width: 1007px)
+{
+    body{
+        margin: 0px;
+    }
+    h1{
+        text-align: center;
+        color: white;
+    }
+    header{
+        background-color: rgba(193, 13, 13, 1);
+        display: flex;
+        text-align: center;
+        align-items: center;
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 15px;
+    }
+    #headerImg{
+        height: 100px;
+    }
+    main{
+        display: flex;
+        flex-direction: row;
+    }
+    aside{
+        background-color: rgba(148, 0, 0, 1);
+        width: 15vw;
+    }
+    .produktlådor{
+        width: 160vw;
+        display: grid;
+        grid-template-columns: 2fr 2fr ;
+    }
+    
+    #produkt{
+        background-color: thistle;
+        height: 300px;
+        width: 350px;
+        margin: 10px;
+    }
+    #produkt1 {
+        height: 300px;
+        width: 350px;
+        margin: 10px;
+        background-repeat:no-repeat;
+        background-size: 350px 300px;
+        background-image: url(img/nedladdning..webp);
+    }
+    #produkt2 {
+        background-position: center;
+        height: 300px;
+        width: 350px;
+        margin: 10px;
+        background-repeat:no-repeat;
+        background-size: 250px 265px;
+        background-image: url(img/liverpool2.webp);  
+    }
+    #produkt3 {
+        height: 300px;
+        width: 350px;
+        margin: 10px;
+        background-repeat:no-repeat;
+        background-size: 350px 300px;
+        background-image: url(img/liverpool3.webp);  
+    }
+    #produkt4 {
+        height: 300px;
+        width: 350px;
+        margin: 10px;
+        background-repeat:no-repeat;
+        background-size: 350px 300px;
+        background-image: url(img/nike-liverpool-20-21-away-jersey-green4.webp);  
+    }
+    #produkt5 {
+        height: 300px;
+        width: 350px;
+        margin: 10px;
+        background-repeat:no-repeat;
+        background-size: 350px 300px;
+        background-image: url(img/liverpool5.webp);  
+    }
+    #produkt6 {
+        height: 300px;
+        width: 350px;
+        margin: 10px;
+        background-repeat:no-repeat;
+        background-size: 350px 300px;
+        background-image: url(img/liverpool6.webp);  
+    }
+    p{
+        color: white;
+        text-align: center;
+        margin-top: 200px;
+        background-color: black;
+        margin-right: 50px; margin-left: 50px;
+    }
+    footer{
+        background-color: rgba(193, 13, 13, 1);
+        text-align: center;
+        padding: 15px;
+    }
+    h2{
+        color: white;
+    }
+    .produktlådor button{
+        align-items: center;
+        justify-content: center
+        text-align: center;
+        margin-left: 150px;
+    }
+}
+@media screen and (max-width: 641px)
+{
+    body{
+        margin: 0px;
+    }
+    h1{
+        text-align: center;
+        color: white;
+    }
+    header{
+        background-color: rgba(193, 13, 13, 1);
+        display: flex;
+        text-align: center;
+        align-items: center;
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 15px;
+    }
+    #headerImg{
+        height: 100px;
+    }
+    main{
+        display: flex;
+        flex-direction: row;
+    }
+    aside{
+        background-color: rgba(148, 0, 0, 1);
+        width: 40vw;
+    }
+    .produktlådor{
+        width: 160vw;
+        display: grid;
+        grid-template-columns: 2fr;
+    }
+    
+    #produkt{
+        background-color: thistle;
+        height: 300px;
+        width: 350px;
+
+    }
+    #produkt1 {
+        height: 300px;
+        width: 255px;
+        background-position: center;
+        background-repeat:no-repeat;
+        background-size: 300px 300px;
+        background-image: url(img/nedladdning..webp);
+    }
+    #produkt2 {
+        background-position: center;
+        height: 300px;
+        width: 255px;
+        background-repeat:no-repeat;
+        background-size: 200px 265px;
+        background-image: url(img/liverpool2.webp);  
+    }
+    #produkt3 {
+        background-position: center;
+        height: 300px;
+        width: 255px;
+        background-repeat:no-repeat;
+        background-size: 350px 300px;
+        background-image: url(img/liverpool3.webp);  
+    }
+    #produkt4 {
+        background-position: center;
+        height: 300px;
+        width: 255px;
+
+        background-repeat:no-repeat;
+        background-size: 350px 300px;
+        background-image: url(img/nike-liverpool-20-21-away-jersey-green4.webp);  
+    }
+    #produkt5 {
+        background-position: center;
+        height: 300px;
+        width: 255px;
+        background-repeat:no-repeat;
+        background-size: 300px 300px;
+        background-image: url(img/liverpool5.webp);  
+    }
+    #produkt6 {
+        background-position: center;
+        height: 300px;
+        width: 255px;
+        background-repeat:no-repeat;
+        background-size: 300px 300px;
+        background-image: url(img/liverpool6.webp);  
+    }
+    p{
+        color: white;
+        text-align: center;
+        margin-top: 200px;
+        background-color: black;
+        margin-right: 50px; margin-left: 50px;
+    }
+    footer{
+        background-color: rgba(193, 13, 13, 1);
+        text-align: center;
+        padding: 15px;
+    }
+    h2{
+        color: white;
+    }
+    .produktlådor button{
+        align-items: center;
+        justify-content: center
+        text-align: center;
+        margin-left: 150px;
+    }    
 }
