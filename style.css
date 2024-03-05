@@ -23,7 +23,9 @@ main{
 }
 aside{
     background-color: rgba(148, 0, 0, 1);
-    width: 8vw;
+    width: 50vw;
+    text-align: center;
+    color: white;
 }
 .produktlådor{
     width: 160vw;
@@ -104,7 +106,7 @@ h2{
 .produktlådor button{
     align-items: center;
     justify-content: center
-    text-align: center;
+    text-align center;
     margin-left: 150px;
 }
 

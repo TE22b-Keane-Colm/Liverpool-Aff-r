@@ -14,49 +14,57 @@
         <img src="img/liverpoollogo.webp" alt="liverpool logo" id="headerImg">
 
         <h1>Liverpool affär</h1>
-
+        
         <img src="img/liverpoollogo.webp" alt="liverpool logo" id="headerImg">
     </header>
     <main>
         <aside>
             <img src="img/ecommerce-icon-shopping-basket-3d-illustration-free-png.webp" alt="varukorg" id="headerImg">
+            
+            <div id="vagn-total"></div>
+            <div id="vagn-items"></div>
+            <button onclick="tabortvagn()">töm vagn</button>
         </aside>
         <div class="produktlådor">
             <div id="produkt1">
                 <p>Liverpool 23/24 hemma kit
                     940kr
                 </p>
-                <button onclick="">Köp</button>
+                <button onclick="addKundvagn('Liverpool 23/24 hemma kit', 940)">Köp</button>
             </div>
             <div id="produkt2">
                 <p>Liverpool 23/24 borta kit
                     940kr
                 </p>
-                <button onclick="">Köp</button>
+                <button onclick="addKundvagn('Liverpool 23/24 borta kit', 940)">Köp</button>
             </div>
             <div id="produkt3">
-                <p>Liverpool 22/23 borta kit
+                <p>
+                    Liverpool 22/23 borta kit
                     849kr
                 </p>
-                <button onclick="">Köp</button>
+                <button onclick="addKundvagn('Liverpool 22/23 borta kit', 849)">Köp</button>
             </div>
             <div id="produkt4">
-                <p>Liverpool 21/22 tredje kit
+                <p>
+                    Liverpool 21/22 tredje kit
                     699kr
                 </p>
-                <button onclick="">Köp</button>
+                <button onclick="addKundvagn('Liverpool 21/22 tredje kit', 699)">Köp</button>
             </div>
             <div id="produkt5">
-                <p>Liverpool 21/22 borta kit
+                <p>
+                    Liverpool 21/22 borta kit
                     849kr
                 </p>
-                <button onclick="">Köp</button>
+                <button onclick="addKundvagn('Liverpool 21/22 borta kit', 849)">Köp</button>
             </div>
             <div id="produkt6">
-                <p>Liverpool 22/23 hemma kit
+                <p>
+                    Liverpool 22/23 hemma kit
                     849kr
                 </p>
-                <button onclick="">Köp</button>
+                <button onclick="addKundvagn('Liverpool 22/23 hemma kit', 849)">Köp</button>
             </div>
         </div> 
     </main> 
